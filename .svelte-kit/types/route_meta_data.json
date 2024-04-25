@@ -1,0 +1,364 @@
+{
+	"/(product)": [
+		"src/routes/(product)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)": [
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(catalog)": [
+		"src/routes/(catalog)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)": [
+		"src/routes/(app)/+page.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)/about-us": [
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(product)/all-reviews/[slug]": [
+		"src/routes/(product)/all-reviews/[slug]/+page.ts",
+		"src/routes/(product)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth": [
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/change-password": [
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/change-success": [
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/forgot-password": [
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/forgot-success": [
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/login": [
+		"src/routes/(app)/auth/login/+page.ts",
+		"src/routes/(app)/auth/login/+page.server.ts",
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/logout": [
+		"src/routes/(app)/auth/logout/+page.server.ts",
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/otp-login": [
+		"src/routes/(app)/auth/otp-login/+page.server.ts",
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/reset-password": [
+		"src/routes/(app)/auth/reset-password/+page.ts",
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/signup": [
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/verification-success": [
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/auth/verify": [
+		"src/routes/(app)/auth/verify/+page.server.ts",
+		"src/routes/(app)/auth/+layout.ts",
+		"src/routes/(app)/auth/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)/blogs": [
+		"src/routes/(marketing)/blogs/+page.server.ts",
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)/blogs/[slug]": [
+		"src/routes/(marketing)/blogs/[slug]/+page.server.ts",
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/bulk-order-inquiry": [
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/cart": [
+		"src/routes/(app)/cart/+page.server.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/categories": [
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/category/[slug]": [
+		"src/routes/(app)/category/[slug]/+page.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/checkout/address": [
+		"src/routes/(app)/checkout/address/+page.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/checkout/payment-options": [
+		"src/routes/(app)/checkout/payment-options/+page.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)/contact-us": [
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)/faqs": [
+		"src/routes/(marketing)/faqs/+page.ts",
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/mobile-cover": [
+		"src/routes/(app)/mobile-cover/+page.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/mobile-cover/[slug]": [
+		"src/routes/(app)/mobile-cover/[slug]/+page.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/my": [
+		"src/routes/(app)/my/+page.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/my/addresses": [
+		"src/routes/(app)/my/addresses/+page.server.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/my/orders": [
+		"src/routes/(app)/my/orders/+page.server.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/my/orders/[id]": [
+		"src/routes/(app)/my/orders/[id]/+page.server.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/my/profile": [
+		"src/routes/(app)/my/profile/+page.server.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/my/reviews": [
+		"src/routes/(app)/my/reviews/+page.server.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/my/reviews/create": [
+		"src/routes/(app)/my/reviews/create/+page.server.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/my/wishlist": [
+		"src/routes/(app)/my/wishlist/+page.server.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/my/wishlist/add/[pid]": [
+		"src/routes/(app)/my/wishlist/add/[pid]/+page.server.ts",
+		"src/routes/(app)/my/+layout.ts",
+		"src/routes/(app)/my/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)/payments-returns": [
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/payment/failed": [
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/payment/process-cf": [
+		"src/routes/(app)/payment/process-cf/+page.server.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/payment/process": [
+		"src/routes/(app)/payment/process/+page.server.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/payment/success": [
+		"src/routes/(app)/payment/success/+page.server.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)/privacy-policy": [
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(product)/product/[slug]": [
+		"src/routes/(product)/product/[slug]/+page.ts",
+		"src/routes/(product)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)/p/[slug]": [
+		"src/routes/(marketing)/p/[slug]/+page.ts",
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(catalog)/reel": [
+		"src/routes/(catalog)/reel/+page.ts",
+		"src/routes/(catalog)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/rss.xml": [
+		"src/routes/rss.xml/+server.js"
+	],
+	"/(catalog)/search": [
+		"src/routes/(catalog)/search/+page.ts",
+		"src/routes/(catalog)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/server/cart": [
+		"src/routes/server/cart/+server.ts"
+	],
+	"/server/files/delete": [
+		"src/routes/server/files/delete/+server.ts"
+	],
+	"/server/files/upload": [
+		"src/routes/server/files/upload/+server.ts"
+	],
+	"/server/store": [
+		"src/routes/server/store/+server.ts"
+	],
+	"/server/verify-zip": [
+		"src/routes/server/verify-zip/+server.ts"
+	],
+	"/(app)/shop/[slug]": [
+		"src/routes/(app)/shop/[slug]/+page.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/sitemap.xml": [
+		"src/routes/sitemap.xml/+server.js"
+	],
+	"/(app)/store/[slug]": [
+		"src/routes/(app)/store/[slug]/+page.ts",
+		"src/routes/(app)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(marketing)/terms-conditions": [
+		"src/routes/(marketing)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/test2": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/tests": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(catalog)/[slug]": [
+		"src/routes/(catalog)/[slug]/+page.ts",
+		"src/routes/(catalog)/+layout.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	]
+}
